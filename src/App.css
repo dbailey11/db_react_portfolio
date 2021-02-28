@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Exo 2', sans-serif !important;
 
 }
 
@@ -53,4 +53,30 @@ nav ul li {
   text-align: center;
   font-family: "Sansita Swashed", cursive;
 }
+
+/**************ABOUT  ME****************/
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid
+}
+
+.about-heading {
+  text-transform: uppercase;
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+    width: 10rem;
+  }
+}
+
 
