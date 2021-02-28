@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../img/Logo.png"
 
 //Font Awesome Imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -8,9 +9,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
-        <a className="navbar-brand" href="#">
-          Devyn Bailey
-        </a>
+        <logo />
         <button
           className="navbar-toggler"
           type="button"
