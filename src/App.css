@@ -291,7 +291,7 @@ nav ul li {
   height: 12.2rem !important;
 }
 
-.contacts-btn {
+.contact-btn {
   margin: 1rem 0 0 0;
   width: 100%;
   background: none;
@@ -317,6 +317,18 @@ input.form-control {
 
 textarea.form-control {
   margin: -0.3rem 0;
+}
+
+.error-message {
+  color: white;
+  background: red;
+  text-align: left;
+}
+
+.success-message {
+  font-weight: 900;
+  color: green;
+
 }
 
 @media(max-width: 768px) {
