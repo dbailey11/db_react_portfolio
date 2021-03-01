@@ -1,7 +1,12 @@
 /**************ALL PAGE****************/
 
 :root {
-  --primary-white: #fff;
+  --primary-white: #ffffff;
+  --primary-grey: #ccd1d9;
+  --primary-dark-grey: #666666;
+  --primary-black: #000000;
+
+
 }
 
 body {
@@ -59,7 +64,7 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .profile-img {
@@ -78,5 +83,167 @@ nav ul li {
     width: 10rem;
   }
 }
+
+/**************EXPERIENCE****************/
+.experience {
+  padding: 0.7rem;
+}
+
+.experience-wrapper {
+  position: relative;
+  padding: 3.125rem 0;
+  overflow: hidden;
+}
+
+.experience h1 {
+  text-transform: uppercase;
+  color: var(--primary-orange);
+}
+
+.experience-wrapper::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -0.0625rem;
+  width: 0.125rem;
+  height: 100%;
+  background: var(--primary-grey);
+  z-index: 1;
+}
+
+.timeline-block {
+  width: calc(50% + 0.5rem);
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+}
+
+.timeline-block-right {
+  float: right;
+}
+
+.timeline-block-left {
+  float: left;
+  direction: rtl;
+}
+
+
+.marker {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;;
+  border: 0.3125rem solid var(--primary-dark);
+  background: var(--primary-orange);
+  margin-top: 0.625rem;
+  z-index: 3;
+}
+
+.timeline-content {
+  width: 95%;
+  padding: 0 0.9375rem;
+  color: var(--primary-dark-grey);
+  direction: ltr;
+}
+
+.timeline-content h3 {
+  margin-top: 0.3125rem;
+  color: var(--primary-red);
+  font-weight: 900;
+}
+
+/**************PROJECTS****************/
+.project-wrapper {
+  background: var(--primary-grey);
+  padding: 3rem 0;
+
+}
+
+.project-image {
+  width: 15rem;
+  height: 8rem;
+  border: 1px solid;
+  padding: 0 0.5rem;
+}
+
+.project-image-box {
+  position: relative;
+  margin: 1rem;
+}
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+.project-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.project-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: orange;
+  font-size: 1.5rem;
+}
+
+.project-image-box:hover .project-icon {
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/**************POPUPBOX****************/
+.project-image-popupbox {
+  width: 45rem;
+  /* height: 30rem; */
+  padding: 0 0.5rem;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: orange;
+}
+
+.hyper-link:hover {
+  color: red;
+}
+
+@media(max-width: 768px) {
+  .project-image-popupbox {
+    width: 100%;
+  }
+}
+
+@media(max-height: 600px) {
+  .popupbox-wrapper {
+    height: 100% !important;
+
+  }
+  .project-image-popupbox {
+    width: 50%;
+  }
+}
+
+@media(max-height: 280px) {
+  .popupbox-wrapper {
+    height: 80% !important;
+
+  }
+  .project-image-popupbox {
+    width: 30%;
+  }
+}
+
+
 
 

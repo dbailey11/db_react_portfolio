@@ -3,6 +3,8 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
+import Experience from "./components/Experience";
+import Projects from './components/Projects';
 
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
     <Navbar />
     <Header />
     <AboutMe />
-    
+    <Experience />
+    <Projects />
+
     </>
   );
 }
