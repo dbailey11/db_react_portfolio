@@ -8,13 +8,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-12 align-items-center">
             <div className="d-flex justify-content-center">
-              <p className="copyright"><FaCopyright /> Devyn Bailey</p>
-              <a href="https://github.com/dbailey11" className="icon">
-                <FaGithubSquare />
-              </a>
-              <a href="https://www.linkedin.com/in/devyn-bailey/" className="icon">
-                <FaLinkedinIn />
-              </a>
+              <p className="copyright"><FaCopyright size={30}/> Devyn Bailey</p>
             </div>
           </div>
         </div>

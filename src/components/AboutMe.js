@@ -1,5 +1,8 @@
 import React from "react";
 import Photo from "../img/aboutme.jpg";
+import Resume from "../docs/Devyn_Bailey_Resume_2021.pdf"
+import { FaGithubSquare, FaLinkedinIn } from "react-icons/fa";
+import { BsFileText } from "react-icons/bs";
 
 const AboutMe = () => {
   return (
@@ -7,7 +10,7 @@ const AboutMe = () => {
       <div className="row">
         <div className="col-lg-6 col-xm-12">
           <div className="photo-wrap mb-5">
-          <img className="profile-img" src={Photo} alt="Devyn Bailey Photo" />
+            <img className="profile-img" src={Photo} alt="Devyn Bailey Photo" />
           </div>
         </div>
         <div className="col-lg-6 col-xm-12">
@@ -22,6 +25,15 @@ const AboutMe = () => {
             and be able to help improve the world we live in. Estimated
             graduation is March 2021.
           </p>
+          <a href="https://github.com/dbailey11" className="icon">
+            <FaGithubSquare size={40} />
+          </a>
+          <a href="https://www.linkedin.com/in/devyn-bailey/" className="icon">
+            <FaLinkedinIn size={40} />
+          </a>
+          <a href={Resume} target="_blank" className="icon">
+            <BsFileText size={40} />
+          </a>
         </div>
       </div>
     </div>

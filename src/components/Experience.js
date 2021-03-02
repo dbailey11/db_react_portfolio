@@ -19,7 +19,7 @@ const Experience = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>2016-2020</h3>
-            <p>Customer Service Expert</p>
+            <p>Gained a wide variety of experience within the customer service realm. Held many different positions including managing a brewery taproom, team lead, customer service expert and gym membership consultant.</p>
           </div>
         </div>
         {/* - */}

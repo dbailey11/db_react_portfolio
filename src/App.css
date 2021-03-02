@@ -60,13 +60,16 @@ nav ul li {
   font-size: x-large;
 }
 
-
+.skull {
+  height: 300px;
+  width: 300px;
+}
 
 .main-info h1 {
   font-size: 3rem;
 }
 
-/**************ABOUT  ME****************/
+/**************ABOUT ME****************/
 .photo-wrap {
   display: flex;
   justify-content: center;
@@ -94,6 +97,7 @@ nav ul li {
 /**************EXPERIENCE****************/
 .experience {
   padding: 0.7rem;
+  background: var(--primary-dark-grey);
 }
 
 .experience-wrapper {
@@ -116,7 +120,7 @@ nav ul li {
   margin-left: -0.0625rem;
   width: 0.125rem;
   height: 100%;
-  background: var(--primary-grey);
+  background: rgb(206, 188, 129);
   z-index: 1;
 }
 
@@ -141,7 +145,7 @@ nav ul li {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;;
-  border: 0.3125rem solid var(--primary-dark);
+  border: 0.3125rem solid var(--primary-black);
   background: var(--primary-orange);
   margin-top: 0.625rem;
   z-index: 3;
@@ -150,19 +154,22 @@ nav ul li {
 .timeline-content {
   width: 95%;
   padding: 0 0.9375rem;
-  color: var(--primary-dark-grey);
+  color: var(--primary-black);
   direction: ltr;
 }
 
 .timeline-content h3 {
   margin-top: 0.3125rem;
-  color: var(--primary-red);
+  color: var(--primary-black);
   font-weight: 900;
 }
 
 /**************PROJECTS****************/
 .project-wrapper {
-  background: var(--primary-grey);
+  
+  background: url("img/wood_texture.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
   padding: 3rem 0;
   
 }
@@ -200,7 +207,7 @@ nav ul li {
   opacity: 0;
   margin-left: -8rem;
   margin-top: 3.6rem;
-  color: orange;
+  color: rgb(206, 188, 129);
   font-size: 1.5rem;
 }
 
@@ -215,7 +222,7 @@ nav ul li {
 
 }
 
-/**************POPUPBOX****************/
+/**************POPUP BOX****************/
 .project-image-popupbox {
   width: 45rem;
   /* height: 30rem; */
@@ -296,7 +303,7 @@ nav ul li {
 
 .contacts input:focus, .contacts textarea:focus {
   background: transparent;
-  color: orange;
+  color: rgb(206, 188, 129);
   border-bottom: 0.125rem solid var(--primary-dark-grey);
 }
 
@@ -315,7 +322,7 @@ nav ul li {
   top: -0.8rem;
   width: 0;
   height: 0.125rem;
-  background: orange;
+  background: rgb(231, 197, 86);
   display: inline-block;
 }
 
@@ -334,13 +341,13 @@ textarea.form-control {
 
 .error-message {
   color: white;
-  background: red;
+  background: rgb(247, 90, 90);
   text-align: left;
 }
 
 .success-message {
   font-weight: 900;
-  color: green;
+  color: rgb(57, 146, 57);
 
 }
 
@@ -366,7 +373,9 @@ textarea.form-control {
 }
 
 .footer p {
-  margin-bottom: 0;
+  margin: 1rem;
+  /* padding: 1rem; */
+  font-size: 1.5rem;
 }
 
 .footer a {
@@ -376,16 +385,18 @@ textarea.form-control {
 
 .footer a:hover {
   text-decoration: none;
-  color: orange;
+  color: rgb(231, 197, 86);
   cursor: pointer;
 }
 
 .copyright {
   margin: 1rem;
+  /* padding: 1rem; */
 }
 
 .icon  {
   margin: 1rem;
+  /* padding: 1rem; */
 }
 
 
