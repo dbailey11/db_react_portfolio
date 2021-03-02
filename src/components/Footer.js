@@ -3,7 +3,7 @@ import { FaGithubSquare, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer bg-dark">
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
@@ -21,7 +21,7 @@ const Footer = () => {
                 <a className="foot-nav">Experience</a>
               </div>
               <div className="col">
-                <a className="foot-nav">Projects</a>
+                <a className="foot-nav">Portfolio</a>
                 <br />
                 <a className="foot-nav">Contact Me</a>
               </div>

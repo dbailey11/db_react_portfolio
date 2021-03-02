@@ -37,7 +37,7 @@ nav ul li {
 }
 
 /**************HEADER****************/
-.header-wraper {
+.header-wrapper {
   position: relative;
   background: url("img/fieldimg.jpg") no-repeat;
   background-size: cover;
@@ -202,6 +202,11 @@ nav ul li {
   cursor: pointer;
 }
 
+.popupbox-wrapper {
+  margin-top: 7rem;
+
+}
+
 /**************POPUPBOX****************/
 .project-image-popupbox {
   width: 45rem;
@@ -347,7 +352,7 @@ textarea.form-control {
 
 /**************FOOTER****************/
 .footer {
-  background: black;
+  /* background: var(--primary-dark-grey); */
   color: var(--primary-grey);
   padding: 3rem;
 }
@@ -366,6 +371,7 @@ textarea.form-control {
   color: orange;
   cursor: pointer;
 }
+
 
 
 
