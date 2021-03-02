@@ -57,6 +57,13 @@ nav ul li {
   align-items: center;
   text-align: center;
   font-family: "Sansita Swashed", cursive;
+  font-size: x-large;
+}
+
+
+
+.main-info h1 {
+  font-size: 3rem;
 }
 
 /**************ABOUT  ME****************/
@@ -90,6 +97,7 @@ nav ul li {
 }
 
 .experience-wrapper {
+  
   position: relative;
   padding: 3.125rem 0;
   overflow: hidden;
@@ -156,7 +164,7 @@ nav ul li {
 .project-wrapper {
   background: var(--primary-grey);
   padding: 3rem 0;
-
+  
 }
 
 .project-image {
@@ -251,12 +259,12 @@ nav ul li {
 
 /**************CONTACT****************/
 .contacts {
-  background: var(--primary-grey);
+  /* background: var(--primary-grey); */
   padding: 3rem 0;
 }
 
 .contacts h1 {
-  color: orange;
+  color: var(--primary-black);
   padding: 1.3rem 0;
   text-transform: uppercase;
 }
@@ -274,7 +282,7 @@ nav ul li {
   border: 0;
   border-bottom: 0.125rem solid var(--primary-dark-grey);
   border-radius: 0;
-  color: #ccd1d9;
+  color: orange;
   outline: 0 !important;
   box-shadow: none !important;
   top: 0;
@@ -299,7 +307,7 @@ nav ul li {
 .contact-btn {
   margin: 1rem 0 0 0;
   width: 100%;
-  background: none;
+  /* background: none; */
 }
 
 .line {
@@ -370,6 +378,14 @@ textarea.form-control {
   text-decoration: none;
   color: orange;
   cursor: pointer;
+}
+
+.copyright {
+  margin: 1rem;
+}
+
+.icon  {
+  margin: 1rem;
 }
 
 

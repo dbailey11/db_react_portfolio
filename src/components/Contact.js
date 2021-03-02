@@ -142,7 +142,7 @@ const Contact = () => {
               <span className="error-message">
                 {errors.description && errors.description.message}
               </span>
-              <button className="btn-main-offer contact-btn" type="submit">
+              <button className="btn btn-primary contact-btn" type="submit">
                 Submit
               </button>
             </div>
