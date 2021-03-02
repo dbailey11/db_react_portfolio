@@ -345,5 +345,27 @@ textarea.form-control {
   }
 }
 
+/**************FOOTER****************/
+.footer {
+  background: black;
+  color: var(--primary-grey);
+  padding: 3rem;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: orange;
+  cursor: pointer;
+}
+
 
 
