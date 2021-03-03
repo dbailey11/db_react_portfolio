@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/db_react_portfolio/static/css/main.eecae89f.chunk.css",
+    "main.js": "/db_react_portfolio/static/js/main.887e5267.chunk.js",
+    "main.js.map": "/db_react_portfolio/static/js/main.887e5267.chunk.js.map",
+    "runtime-main.js": "/db_react_portfolio/static/js/runtime-main.aad8f5ef.js",
+    "runtime-main.js.map": "/db_react_portfolio/static/js/runtime-main.aad8f5ef.js.map",
+    "static/css/2.a894a7ba.chunk.css": "/db_react_portfolio/static/css/2.a894a7ba.chunk.css",
+    "static/js/2.da47d935.chunk.js": "/db_react_portfolio/static/js/2.da47d935.chunk.js",
+    "static/js/2.da47d935.chunk.js.map": "/db_react_portfolio/static/js/2.da47d935.chunk.js.map",
+    "static/js/3.808f7d1c.chunk.js": "/db_react_portfolio/static/js/3.808f7d1c.chunk.js",
+    "static/js/3.808f7d1c.chunk.js.map": "/db_react_portfolio/static/js/3.808f7d1c.chunk.js.map",
+    "index.html": "/db_react_portfolio/index.html",
+    "static/css/2.a894a7ba.chunk.css.map": "/db_react_portfolio/static/css/2.a894a7ba.chunk.css.map",
+    "static/css/main.eecae89f.chunk.css.map": "/db_react_portfolio/static/css/main.eecae89f.chunk.css.map",
+    "static/js/2.da47d935.chunk.js.LICENSE.txt": "/db_react_portfolio/static/js/2.da47d935.chunk.js.LICENSE.txt",
+    "static/media/Devyn_Bailey_Resume_2021.a9421938.pdf": "/db_react_portfolio/static/media/Devyn_Bailey_Resume_2021.a9421938.pdf",
+    "static/media/aboutme.8e1df035.jpg": "/db_react_portfolio/static/media/aboutme.8e1df035.jpg",
+    "static/media/breeds_quiz_hw4_start.e3d1b31b.png": "/db_react_portfolio/static/media/breeds_quiz_hw4_start.e3d1b31b.png",
+    "static/media/cow_skull_brand.f2fc16e8.png": "/db_react_portfolio/static/media/cow_skull_brand.f2fc16e8.png",
+    "static/media/emp_track_screenshot.b7ead498.JPG": "/db_react_portfolio/static/media/emp_track_screenshot.b7ead498.JPG",
+    "static/media/App.css": "/db_react_portfolio/static/media/wood_texture.a8625e09.jpg",
+    "static/media/mighty-sea-42900.herokuapp.com_.26df5605.png": "/db_react_portfolio/static/media/mighty-sea-42900.herokuapp.com_.26df5605.png",
+    "static/media/screenshot.103d9dcb.JPG": "/db_react_portfolio/static/media/screenshot.103d9dcb.JPG",
+    "static/media/screenshot.b2be2e08.png": "/db_react_portfolio/static/media/screenshot.b2be2e08.png",
+    "static/media/weather_dashboard_screenshot.c7825e5b.png": "/db_react_portfolio/static/media/weather_dashboard_screenshot.c7825e5b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aad8f5ef.js",
+    "static/css/2.a894a7ba.chunk.css",
+    "static/js/2.da47d935.chunk.js",
+    "static/css/main.eecae89f.chunk.css",
+    "static/js/main.887e5267.chunk.js"
+  ]
+}
