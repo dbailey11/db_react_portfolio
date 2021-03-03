@@ -25,10 +25,10 @@ const AboutMe = () => {
             and be able to help improve the world we live in. Estimated
             graduation is March 2021.
           </p>
-          <a href="https://github.com/dbailey11" className="icon">
+          <a href="https://github.com/dbailey11" target="_blank" className="icon">
             <FaGithubSquare size={40} />
           </a>
-          <a href="https://www.linkedin.com/in/devyn-bailey/" className="icon">
+          <a href="https://www.linkedin.com/in/devyn-bailey/" target="_blank" className="icon">
             <FaLinkedinIn size={40} />
           </a>
           <a href={Resume} target="_blank" className="icon">

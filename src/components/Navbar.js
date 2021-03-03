@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../img/Logo.png"
 import { Link } from 'react-scroll';
 
 //Font Awesome Imports
@@ -10,7 +9,6 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
       <div className="container">
-        <logo />
         <button
           className="navbar-toggler"
           type="button"
