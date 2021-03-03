@@ -13,8 +13,9 @@ Additional React packages include:
 ## Table of Contents
 
 - [Usage](#usage)
+- [Screenshot](#screenshot)
 - [Contributing](#contributing)
-- [License](#license)
+- [Resources](#resources)
 - [Questions](#questions)
 
 ## Usage
@@ -23,11 +24,17 @@ To access portfolio via GitHub link visit:
 
 ## Screenshot
 
-
+![Image of personal portfolio](src/img/appscreenshot.JPG)
 
 ## Contributing
 
 This application is not open for other developer contribution.
+
+## Resources
+
+Andrey Dovganyuk videos:
+- Udemy: https://www.udemy.com/user/andrew1119/
+- Youtube: https://www.youtube.com/8020coding
 
 ## Questions
 
