@@ -289,7 +289,7 @@ nav ul li {
   border: 0;
   border-bottom: 0.125rem solid var(--primary-dark-grey);
   border-radius: 0;
-  color: orange;
+  color: var(--primary-black);
   outline: 0 !important;
   box-shadow: none !important;
   top: 0;
@@ -303,7 +303,7 @@ nav ul li {
 
 .contacts input:focus, .contacts textarea:focus {
   background: transparent;
-  color: rgb(206, 188, 129);
+  color: var(--primary-black);
   border-bottom: 0.125rem solid var(--primary-dark-grey);
 }
 
