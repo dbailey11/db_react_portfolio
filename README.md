@@ -20,7 +20,7 @@ Additional React packages include:
 
 ## Usage
 
-To access portfolio via GitHub link visit: 
+To access portfolio via GitHub link visit: https://dbailey11.github.io/db_react_portfolio/
 
 ## Screenshot
 
